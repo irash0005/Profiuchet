@@ -13,7 +13,7 @@
 <img src="images/employees.png" alt="" width="80"
 height="80" >
 </a>
-<h2>Управление персоналом</h2>
+<h2>Профи Учет</h2>
 <a href="/persons/">
 <img alt="Логотип" id="top-image" src="images/persons.png">
 </a>
