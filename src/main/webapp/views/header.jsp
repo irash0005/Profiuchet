@@ -9,11 +9,11 @@
 <!-- Header -->
 <nav class="navbar navbar-light bg-primary">
 <div class="container-fluid">
-<h2>Профи Учет</h2>
-<a href="/persons/">
-<img alt="Логотип" id="top-image" src="images/employees.png" alt="" width="80"
+<a class="navbar-brand" href="#">
+<img src="images/employees.png" alt="" width="80"
 height="80" >
 </a>
+<h2>Профи Учет</h2>
 </div>
 </nav>
 <!-- /Header -->

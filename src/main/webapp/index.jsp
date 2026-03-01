@@ -18,9 +18,9 @@
 <ul class="list-group list-group-flush">
 <li class="list-group-item list-group-item-
 primary"> 
-<a href="/persons/person">Сотрудники</a>
+<a href="/services/service">Сервисы</a>
 <li class="list-group-item list-group-item-info">
-<a href="/persons/role">Должности</a>
+<a href="/services/master">Мастера</a>
 </ul>
 </div>
 <br><br>
@@ -28,7 +28,7 @@ primary">
 <jsp:include page="/views/footer.jsp" />
 </div>
 <!-- jQuery -->
-<script src="js/jquery-3.6.4.js"></script>
+<script src="js/jquery-4.0.0.min.js"></script>
 <!-- Bootstrap JS + Popper JS -->
 <script defer src="js/bootstrap.bundle.min.js"></script>
 </body>
