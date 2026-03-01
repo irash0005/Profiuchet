@@ -9,7 +9,7 @@ import  java.io.IOException; import  java.io.PrintWriter;
 /**
 * Servlet implementation class MastersServlet_
 */
-@WebServlet("/masters")
+@WebServlet("/master")
 public  class  MastersServlet_ extends  HttpServlet {
 private  static  final  long  serialVersionUID  = 1L;
 /**

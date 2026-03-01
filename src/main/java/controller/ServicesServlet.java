@@ -9,7 +9,7 @@ import  java.io.IOException; import  java.io.PrintWriter;
 /**
 * Servlet implementation class ServicesServlet
 */
-@WebServlet("/masters")
+@WebServlet("/service")
 public  class  ServicesServlet extends  HttpServlet {
 private  static  final  long  serialVersionUID  = 1L;
 /**
@@ -26,7 +26,7 @@ protected  void  doGet(HttpServletRequest request, HttpServletResponse response)
 response.setContentType("text/html");
 PrintWriter writer = response.getWriter();
 try  {
-writer.println("<h2>Привет  MastersServlet</h2>");
+writer.println("<h2>Привет  SevicesServlet</h2>");
 } finally  {
 writer.close();  
 }
