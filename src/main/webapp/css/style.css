@@ -1,0 +1,77 @@
+/* Общие настройки */
+body {
+    background-color: #ffffff;
+    font-family: sans-serif;
+}
+
+/* Стили для Header (предполагая структуру в header.jsp) */
+.header-custom {
+    background-color: #0d6efd; /* Насыщенный синий */
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+/* Стили таблицы */
+.table thead th {
+    border-bottom: 2px solid #000;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+.table td {
+    vertical-align: middle;
+    border-bottom: 1px solid #dee2e6;
+}
+
+/* Кнопки-иконки (Редактировать/Удалить) */
+.btn-outline-primary {
+    border-color: #adb5bd !important;
+    padding: 5px 10px !important;
+    background-color: #fff !important;
+}
+
+.btn-outline-primary img {
+    width: 18px;
+    height: 18px;
+    filter: grayscale(1); /* Чтобы иконки были темными, как на скрине */
+}
+
+.btn-outline-primary:hover {
+    background-color: #f8f9fa !important;
+}
+
+/* Правая колонка с формой */
+.col-4.border {
+    border-left: 1px solid #dee2e6 !important;
+    border-right: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+}
+
+h3 {
+    font-weight: normal;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+
+/* Поля формы */
+.form-control {
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+}
+
+.col-form-label {
+    font-size: 0.9rem;
+}
+
+/* Футер (предполагая структуру в footer.jsp) */
+footer, .footer-custom {
+    background-color: #d3d3d3;
+    padding: 15px;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #444;
+    margin-top: 50px;
+}
