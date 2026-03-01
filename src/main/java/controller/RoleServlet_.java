@@ -5,17 +5,16 @@ import  jakarta.servlet.http.HttpServlet;
 import  jakarta.servlet.http.HttpServletRequest;
 import  jakarta.servlet.http.HttpServletResponse;
 import  java.io.IOException; import  java.io.PrintWriter;
-
 /**
-* Servlet implementation class ServicesServlet
+* Servlet implementation class RoleServlet_
 */
-@WebServlet("/masters")
-public  class  ServicesServlet extends  HttpServlet {
+@WebServlet("/HelloRoleServlet")
+public  class  RoleServlet_ extends  HttpServlet {
 private  static  final  long  serialVersionUID  = 1L;
 /**
 * @see  HttpServlet#HttpServlet()
 */
-public  ServicesServlet() {
+public  RoleServlet_() {
 super();
 // TODO  Auto-generated constructor stub
 }
@@ -26,7 +25,7 @@ protected  void  doGet(HttpServletRequest request, HttpServletResponse response)
 response.setContentType("text/html");
 PrintWriter writer = response.getWriter();
 try  {
-writer.println("<h2>Привет  MastersServlet</h2>");
+writer.println("<h2>Привет  RoleServlet</h2>");
 } finally  {
 writer.close();  
 }
